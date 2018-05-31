@@ -1,0 +1,111 @@
+/* slideUp */
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0); }
+  100% {
+    -webkit-transform: none; } }
+@-moz-keyframes slideUp {
+  0% {
+    -moz-transform: translate3d(0, 100%, 0); }
+  100% {
+    -moz-transform: none; } }
+@-o-keyframes slideUp {
+  0% {
+    -o-transform: translate3d(0, 100%, 0); }
+  100% {
+    -o-transform: none; } }
+@keyframes slideUp {
+  0% {
+    transform: translate3d(0, 100%, 0); }
+  100% {
+    transform: none; } }
+
+.u--slideUp {
+  -webkit-animation: slideUp 1s;
+  -moz-animation: slideUp 1s;
+  -o-animation: slideUp 1s;
+  animation: slideUp 1s; }
+
+/* slideDown */
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0); }
+  100% {
+    -webkit-transform: none; } }
+@-moz-keyframes slideDown {
+  0% {
+    -moz-transform: translate3d(0, -100%, 0); }
+  100% {
+    -moz-transform: none; } }
+@-o-keyframes slideDown {
+  0% {
+    -o-transform: translate3d(0, -100%, 0); }
+  100% {
+    -o-transform: none; } }
+@keyframes slideDown {
+  0% {
+    transform: translate3d(0, -100%, 0); }
+  100% {
+    transform: none; } }
+
+.u--slideDown {
+  -webkit-animation: slideDown 1s;
+  -moz-animation: slideDown 1s;
+  -o-animation: slideDown 1s;
+  animation: slideDown 1s; }
+
+/* slideLeft */
+@-webkit-keyframes slideLeft {
+  0% {
+    -webkit-transform: translate3d(-100%, 0, 0); }
+  100% {
+    -webkit-transform: none; } }
+@-moz-keyframes slideLeft {
+  0% {
+    -moz-transform: translate3d(-100%, 0, 0); }
+  100% {
+    -moz-transform: none; } }
+@-o-keyframes slideLeft {
+  0% {
+    -o-transform: translate3d(-100%, 0, 0); }
+  100% {
+    -o-transform: none; } }
+@keyframes slideLeft {
+  0% {
+    transform: translate3d(-100%, 0, 0); }
+  100% {
+    transform: none; } }
+
+.u--slideLeft {
+  -webkit-animation: slideLeft 1s;
+  -moz-animation: slideLeft 1s;
+  -o-animation: slideLeft 1s;
+  animation: slideLeft 1s; }
+
+/* slideRight */
+@-webkit-keyframes slideRight {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0); }
+  100% {
+    -webkit-transform: none; } }
+@-moz-keyframes slideRight {
+  0% {
+    -moz-transform: translate3d(100%, 0, 0); }
+  100% {
+    -moz-transform: none; } }
+@-o-keyframes slideRight {
+  0% {
+    -o-transform: translate3d(100%, 0, 0); }
+  100% {
+    -o-transform: none; } }
+@keyframes slideRight {
+  0% {
+    transform: translate3d(100%, 0, 0); }
+  100% {
+    transform: none; } }
+
+.u--slideRight {
+  -webkit-animation: slideRight 1s;
+  -moz-animation: slideRight 1s;
+  -o-animation: slideRight 1s;
+  animation: slideRight 1s; }
