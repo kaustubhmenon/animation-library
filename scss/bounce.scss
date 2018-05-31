@@ -1,0 +1,234 @@
+// Variables
+//--------------------------------//
+$ANIMATION_DURATION:    2s;
+$CUBIC_BEZIER:          cubic-bezier(0.215, 0.610, 0.355, 1.000);
+
+// Bounce In
+//--------------------------------//
+@-webkit-keyframes bounceIn {
+  0%{ -webkit-transform:scale(0.3); opacity:0;}
+  40%{ -webkit-transform:scale(1.1); opacity:0.9;}
+  80%{ -webkit-transform:scale(0.8); opacity:1;}
+  100%{ -webkit-transform:scale(1); opacity:1;}
+}
+@-moz-keyframes bounceIn {
+  0%{ -moz-transform:scale(0.3); opacity:0;}
+  40%{ -moz-transform:scale(1.1); opacity:0.9;}
+  80%{ -moz-transform:scale(0.8); opacity:1;}
+  100%{ -moz-transform:scale(1); opacity:1;}
+}
+@-o-keyframes bounceIn{
+  0%{ -o-transform:scale(0.3); opacity:0;}
+  40%{ -o-transform:scale(1.1); opacity:0.9;}
+  80%{ -o-transform:scale(0.8); opacity:1;}
+  100%{ -o-transform:scale(1); opacity:1;}
+}
+@keyframes bounceIn {
+  0%{ transform:scale(0.3); opacity:0;}
+  40%{ transform:scale(1.1); opacity:0.9;}
+  80%{ transform:scale(0.8); opacity:1;}
+  100%{ transform:scale(1); opacity:1;}
+}
+
+.u--bounceIn {
+  -webkit-animation: bounceIn $ANIMATION_DURATION $CUBIC_BEZIER;
+  -moz-animation:    bounceIn $ANIMATION_DURATION $CUBIC_BEZIER;
+  -o-animation:      bounceIn $ANIMATION_DURATION $CUBIC_BEZIER;
+  animation:         bounceIn $ANIMATION_DURATION $CUBIC_BEZIER;
+}
+
+// Bounce Out
+//--------------------------------//
+@-webkit-keyframes bounceOut {
+  20%{ -webkit-transform:scale(0.9);}
+  50%, 65%{ -webkit-transform:scale(1.1); opacity:1;}
+  100%{ -webkit-transform:scale(0.3); opacity:0;}
+}
+
+@-moz-keyframes bounceOut {
+  20%{ -moz-transform:scale(0.9);}
+  50%, 65%{ -moz-transform:scale(1.1); opacity:1;}
+  100%{ -moz-transform:scale(0.3); opacity:0;}
+}
+@-o-keyframes bounceOut{
+  20%{ -o-transform:scale(0.9);}
+  50%, 55%{ -o-transform:scale(1.1); opacity:1}
+  100%{ -o-transform:scale(0.3); opacity:0;}
+}
+
+@keyframes bounceOut {
+  20%{ transform:scale(0.9);}
+  50%, 65%{ transform:scale(1.1); opacity:1;}
+  100%{ transform:scale(0.3); opacity:0;}
+}
+
+.u--bounceOut {
+  -webkit-animation: bounceOut $ANIMATION_DURATION $CUBIC_BEZIER;
+  -moz-animation:    bounceOut $ANIMATION_DURATION $CUBIC_BEZIER;
+  -o-animation:      bounceOut $ANIMATION_DURATION $CUBIC_BEZIER;
+  animation:         bounceOut $ANIMATION_DURATION $CUBIC_BEZIER;
+}
+
+// Bounce In Left
+//--------------------------------//
+@-webkit-keyframes bounceInLeft {
+  0%{ -webkit-transform: translate3d(-25%, 0, 0);}
+  60%{ -webkit-transform: translate3d(3%, 0, 0);}
+  75%{ -webkit-transform: translate3d(-1%, 0, 0);}
+  90%{ -webkit-transform: translate3d(1%, 0, 0);}
+  100%{ -webkit-transform: none;}
+}
+
+@-moz-keyframes bounceInLeft {
+  0%{ -moz-transform: translate3d(-25%, 0, 0);}
+  60%{ -moz-transform: translate3d(3%, 0, 0);}
+  75%{ -moz-transform: translate3d(-1%, 0, 0);}
+  90%{ -moz-transform: translate3d(1%, 0, 0);}
+  100%{ -moz-transform: none;}
+}
+
+@-o-keyframes bounceInLeft{
+  0%{ -o-transform: translate3d(-25%, 0, 0);}
+  60%{ -o-transform: translate3d(3%, 0, 0);}
+  75%{ -o-transform: translate3d(-1%, 0, 0);}
+  90%{ -o-transform: translate3d(1%, 0, 0);}
+  100%{ -o-transform: none;}
+}
+
+@keyframes bounceInLeft {
+  0%{ transform: translate3d(-25%, 0, 0);}
+  60%{ transform: translate3d(3%, 0, 0);}
+  75%{ transform: translate3d(-1%, 0, 0);}
+  90%{ transform: translate3d(1%, 0, 0);}
+  100%{ transform: none;}
+}
+
+.u--bounceInLeft {
+  -webkit-animation: bounceInLeft $ANIMATION_DURATION $CUBIC_BEZIER;
+  -moz-animation:    bounceInLeft $ANIMATION_DURATION $CUBIC_BEZIER;
+  -o-animation:      bounceInLeft $ANIMATION_DURATION $CUBIC_BEZIER;
+  animation:         bounceInLeft $ANIMATION_DURATION $CUBIC_BEZIER;
+}
+
+// Bounce In Right
+//--------------------------------//
+@-webkit-keyframes bounceInRight {
+  0%{ -webkit-transform: translate3d(25%, 0, 0);}
+  60%{ -webkit-transform: translate3d(-3%, 0, 0);}
+  75%{ -webkit-transform: translate3d(1%, 0, 0);}
+  90%{ -webkit-transform: translate3d(-1%, 0, 0);}
+  100%{ -webkit-transform: none;}
+}
+
+@-moz-keyframes bounceInRight {
+  0%{ -moz-transform: translate3d(25%, 0, 0);}
+  60%{ -moz-transform: translate3d(-3%, 0, 0);}
+  75%{ -moz-transform: translate3d(1%, 0, 0);}
+  90%{ -moz-transform: translate3d(-1%, 0, 0);}
+  100%{ -moz-transform: none;}
+}
+
+@-o-keyframes bounceInRight{
+  0%{ -o-transform: translate3d(25%, 0, 0);}
+  60%{ -o-transform: translate3d(-3%, 0, 0);}
+  75%{ -o-transform: translate3d(1%, 0, 0);}
+  90%{ -o-transform: translate3d(-1%, 0, 0);}
+  100%{ -o-transform: none;}
+}
+
+@keyframes bounceInRight {
+  0%{ transform: translate3d(25%, 0, 0);}
+  60%{ transform: translate3d(-3%, 0, 0);}
+  75%{ transform: translate3d(1%, 0, 0);}
+  90%{ transform: translate3d(-1%, 0, 0);}
+  100%{ transform: none;}
+}
+
+.u--bounceInRight {
+  -webkit-animation: bounceInRight $ANIMATION_DURATION $CUBIC_BEZIER;
+  -moz-animation:    bounceInRight $ANIMATION_DURATION $CUBIC_BEZIER;
+  -o-animation:      bounceInRight $ANIMATION_DURATION $CUBIC_BEZIER;
+  animation:         bounceInRight $ANIMATION_DURATION $CUBIC_BEZIER;
+}
+
+// Bounce In Up
+//--------------------------------//
+@-webkit-keyframes bounceInUp {
+  0%{ -webkit-transform: translate3d(0, 25%, 0);}
+  60%{ -webkit-transform: translate3d(0, -3%, 0);}
+  75%{ -webkit-transform: translate3d(0, 1%, 0);}
+  90%{ -webkit-transform: translate3d(0, -1%, 0);}
+  100%{ -webkit-transform: none;}
+}
+
+@-moz-keyframes bounceInUp {
+  0%{ -moz-transform: translate3d(0, 25%, 0);}
+  60%{ -moz-transform: translate3d(0, -3%, 0);}
+  75%{ -moz-transform: translate3d(0, 1%, 0);}
+  90%{ -moz-transform: translate3d(0, -1%, 0);}
+  100%{ -moz-transform: none;}
+}
+
+@-o-keyframes bounceInUp{
+  0%{ -o-transform: translate3d(0, 25%, 0);}
+  60%{ -o-transform: translate3d(0, -3%, 0);}
+  75%{ -o-transform: translate3d(0, 1%, 0);}
+  90%{ -o-transform: translate3d(0, -1%, 0);}
+  100%{ -o-transform: none;}
+}
+
+@keyframes bounceInUp {
+  0%{ transform: translate3d(0, 25%, 0);}
+  60%{ transform: translate3d(0, -3%, 0);}
+  75%{ transform: translate3d(0, 1%, 0);}
+  90%{ transform: translate3d(0, -1%, 0);}
+  100%{ transform: none;}
+}
+
+.u--bounceInUp {
+  -webkit-animation: bounceInUp $ANIMATION_DURATION $CUBIC_BEZIER;
+  -moz-animation:    bounceInUp $ANIMATION_DURATION $CUBIC_BEZIER;
+  -o-animation:      bounceInUp $ANIMATION_DURATION $CUBIC_BEZIER;
+  animation:         bounceInUp $ANIMATION_DURATION $CUBIC_BEZIER;
+}
+
+// Bounce In Down
+//--------------------------------//
+@-webkit-keyframes bounceInDown {
+  0%{ -webkit-transform: translate3d(0, -25%, 0);}
+  60%{ -webkit-transform: translate3d(0, 3%, 0);}
+  75%{ -webkit-transform: translate3d(0, -1%, 0);}
+  90%{ -webkit-transform: translate3d(0, 1%, 0);}
+  100%{ -webkit-transform: none;}
+}
+
+@-moz-keyframes bounceInDown {
+  0%{ -moz-transform: translate3d(0, -25%, 0);}
+  60%{ -moz-transform: translate3d(0, 3%, 0);}
+  75%{ -moz-transform: translate3d(0, -1%, 0);}
+  90%{ -moz-transform: translate3d(0, 1%, 0);}
+  100%{ -moz-transform: none;}
+}
+
+@-o-keyframes bounceInDown{
+  0%{ -o-transform: translate3d(0, -25%, 0);}
+  60%{ -o-transform: translate3d(0, 3%, 0);}
+  75%{ -o-transform: translate3d(0, -1%, 0);}
+  90%{ -o-transform: translate3d(0, 1%, 0);}
+  100%{ -o-transform: none;}
+}
+
+@keyframes bounceInDown {
+  0%{ transform: translate3d(0, -25%, 0);}
+  60%{ transform: translate3d(0, 3%, 0);}
+  75%{ transform: translate3d(0, -1%, 0);}
+  90%{ transform: translate3d(0, 1%, 0);}
+  100%{ transform: none;}
+}
+
+.u--bounceInDown {
+  -webkit-animation: bounceInDown $ANIMATION_DURATION $CUBIC_BEZIER;
+  -moz-animation:    bounceInDown $ANIMATION_DURATION $CUBIC_BEZIER;
+  -o-animation:      bounceInDown $ANIMATION_DURATION $CUBIC_BEZIER;
+  animation:         bounceInDown $ANIMATION_DURATION $CUBIC_BEZIER;
+}

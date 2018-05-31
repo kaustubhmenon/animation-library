@@ -1,0 +1,114 @@
+// Variables
+//--------------------------------//
+$ANIMATION_DURATION:               1s;
+
+// Slide Up
+//--------------------------------//
+
+@-webkit-keyframes slideUp {
+  0% { -webkit-transform: translate3d(0, 100%, 0);}
+  100% {-webkit-transform: none;}
+}
+@-moz-keyframes slideUp {
+  0% {-moz-transform: translate3d(0, 100%, 0);}
+  100% {-moz-transform: none;}
+}
+@-o-keyframes slideUp{
+  0% {-o-transform: translate3d(0, 100%, 0);}
+  100% {-o-transform: none;}
+}
+@keyframes slideUp {
+  0% {transform: translate3d(0, 100%, 0);}
+  100% {transform: none;}
+}
+
+.u--slideUp {
+  -webkit-animation: slideUp $ANIMATION_DURATION;
+  -moz-animation:    slideUp $ANIMATION_DURATION;
+  -o-animation:      slideUp $ANIMATION_DURATION;
+  animation:         slideUp $ANIMATION_DURATION;
+}
+
+// Slide Down
+//--------------------------------//
+@-webkit-keyframes slideDown {
+  0% { -webkit-transform: translate3d(0, -100%, 0);}
+  100% {-webkit-transform: none;}
+}
+@-moz-keyframes slideDown {
+  0% {-moz-transform: translate3d(0, -100%, 0);}
+  100% {-moz-transform: none;}
+}
+@-o-keyframes slideDown{
+  0% {-o-transform: translate3d(0, -100%, 0);}
+  100% {-o-transform: none;}
+}
+@keyframes slideDown {
+  0% {transform: translate3d(0, -100%, 0);}
+  100% {transform: none;}
+}
+
+.u--slideDown {
+  -webkit-animation: slideDown $ANIMATION_DURATION;
+  -moz-animation:    slideDown $ANIMATION_DURATION;
+  -o-animation:      slideDown $ANIMATION_DURATION;
+  animation:         slideDown $ANIMATION_DURATION;
+}
+
+// Slide Left
+//--------------------------------//
+@-webkit-keyframes slideLeft {
+  0% { -webkit-transform: translate3d(-100%, 0, 0);}
+  100% {-webkit-transform: none;}
+}
+@-moz-keyframes slideLeft {
+  0% {-moz-transform: translate3d(-100%, 0, 0);}
+  100% {-moz-transform: none;}
+}
+@-o-keyframes slideLeft{
+  0% {-o-transform: translate3d(-100%, 0, 0);}
+  100% {-o-transform: none;}
+}
+@keyframes slideLeft {
+  0% {transform: translate3d(-100%, 0, 0);}
+  100% {transform: none;}
+}
+
+.u--slideLeft {
+  -webkit-animation: slideLeft $ANIMATION_DURATION;
+  -moz-animation:    slideLeft $ANIMATION_DURATION;
+  -o-animation:      slideLeft $ANIMATION_DURATION;
+  animation:         slideLeft $ANIMATION_DURATION;
+}
+
+// Slide Right
+//--------------------------------//
+
+@-webkit-keyframes slideRight {
+  0% { -webkit-transform: translate3d(100%, 0, 0);}
+  100% {-webkit-transform: none;}
+}
+@-moz-keyframes slideRight {
+  0% {-moz-transform: translate3d(100%, 0, 0);}
+  100% {-moz-transform: none;}
+}
+@-o-keyframes slideRight{
+  0% {-o-transform: translate3d(100%, 0, 0);}
+  100% {-o-transform: none;}
+}
+@keyframes slideRight {
+  0% {transform: translate3d(100%, 0, 0);}
+  100% {transform: none;}
+}
+
+
+
+
+
+
+.u--slideRight {
+  -webkit-animation: slideRight $ANIMATION_DURATION;
+  -moz-animation:    slideRight $ANIMATION_DURATION;
+  -o-animation:      slideRight $ANIMATION_DURATION;
+  animation:         slideRight $ANIMATION_DURATION;
+}
