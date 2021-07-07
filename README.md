@@ -7,3 +7,6 @@ Pure CSS Animation Library. Made with love at Later.com
 
 # Example
 1. `<div class="u--fadeIn" >...</div>`
+
+# Demo
+https://animation.kaustubhmenon.com/
